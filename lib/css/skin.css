@@ -1,0 +1,36 @@
+.wpbox-sic-card{
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.05);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 20px;
+    border-radius: 12px;
+    }
+
+
+.leftt
+{float:left;
+color: #3D366F; font-size:13px;
+}
+.tbox
+{
+width:45% !important;
+}
+.frms {
+	border: 0px solid #ddd;
+	border-radius: 0.3em;color: #333;font-family: Tahoma,Geneva,sans-serif;font-size: 0.9em;line-height: 1.2em;margin: 0 auto;padding: 10px;width:50%;
+}
+.frms input[type="text"], [type="password"], [type="file"], textarea, select {background: none repeat scroll 0 0 #fff;border: 1px solid #ddd;border-radius: 0.35em;height: 35px;margin-bottom: 15px;margin-top: 5px;padding: 0 0.5%;width: 99%;
+}
+.frms input[type="submit"], input[type="reset"], input[type="button"], button, .yellow_button, .blue_button {border: medium none;border-radius: 0.3em;color: #fff;cursor: pointer;font-weight: bold;margin: 10px 0;padding: 7px 14px;
+}
+.frms input[type="reset"] {background: none repeat scroll 0 0 #ee765d;border-bottom: 3px solid #d95e44;text-shadow: 1px 1px 0 #8c3736;
+}
+input[type="button"], button, .blue_button {background: none repeat scroll 0 0 #468cd2;border-bottom: 3px solid #3277bc;text-shadow: 1px 1px 0 #214d73;
+}
+.new
+{padding: 16px;
+}
+@media only screen and (max-width:480px)
+{.frms {width:90% !important;}.tbox
+{
+width:95% !Important;
+}.frms input[type="text"], [type="password"], [type="file"], textarea, select {width:95% !important;}}
